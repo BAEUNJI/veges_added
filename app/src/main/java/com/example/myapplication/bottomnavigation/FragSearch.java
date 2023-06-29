@@ -108,7 +108,7 @@ public class FragSearch extends Fragment {
 
             Document doc = convertStringToDocument(text);
 
-            //필요한정보 뽑아내는 코드 구현;
+            // 필요한정보 뽑아내는 코드 구현;
 
             NodeList nList = doc.getElementsByTagName("item");
             System.out.println("파싱할 리스트 수 : "+ nList.getLength());  // 파싱할 리스트 수 :  5
